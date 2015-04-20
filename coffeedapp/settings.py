@@ -18,7 +18,7 @@ ON_HEROKU = os.environ.get('ON_HEROKU')
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '_1z2!$e4!2ggw2d+41$9ys-c%*w)c3fh63a787146nl6zmqgcu'
+SECRET_KEY = 'JJjA93VdezPg00zgeH/BPe3YtZQ3xuMoc7gOHWdK'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
