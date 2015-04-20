@@ -15,10 +15,12 @@ class Migration(migrations.Migration):
             model_name='location',
             name='address',
             field=models.TextField(null=True, blank=True),
+            preserve_default=True,
         ),
         migrations.AddField(
             model_name='location',
             name='hours',
             field=models.TextField(null=True, blank=True),
+            preserve_default=True,
         ),
     ]

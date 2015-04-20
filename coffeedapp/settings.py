@@ -1,7 +1,9 @@
 """
 Django settings for coffeedapp project.
+
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
+
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
@@ -18,7 +20,7 @@ ON_HEROKU = os.environ.get('ON_HEROKU')
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'JJjA93VdezPg00zgeH/BPe3YtZQ3xuMoc7gOHWdK'
+SECRET_KEY = '_1z2!$e4!2ggw2d+41$9ys-c%*w)c3fh63a787146nl6zmqgcu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -124,6 +126,8 @@ AWS_QUERYSTRING_AUTH = False
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWSSecretKey')
 AWS_ACCESS_KEY_ID = os.environ.get('AWSAccessKeyId')
 
-AWS_STORAGE_BUCKET_NAME = 'onemonthpythoncoffeedarvin'
+AWS_STORAGE_BUCKET_NAME = 'onemonthpythoncoffeed'
+
+
 
 
